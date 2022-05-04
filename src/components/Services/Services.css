@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 992px) {
+    .cards {
+        width: 22rem;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .cards {
+        width: 20rem;
+        margin-right: 30px;
+    }
+  }
+  .card img{
+    box-shadow: 6px 6px 5px  #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  margin-top: 10px;
+      
+  }
+.card{
+    border-radius: 30px;
+}

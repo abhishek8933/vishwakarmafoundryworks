@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .mapping iframe {
+      width: 600px;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .mapping iframe {
+      width: 250px;
+    }
+  }
+.mapping iframe{
+    box-shadow: 10px 10px 8px #888888;
+}
+.text{
+  font-family: 'Square Peg', cursive;
+
+}
